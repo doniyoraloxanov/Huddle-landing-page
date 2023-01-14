@@ -1,0 +1,202 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+
+/*
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+/***********************************/
+/* NAVIAGTION */
+/***********************************/
+
+.header {
+  background-color: hsl(193, 100%, 96%);
+  padding: 64px 96px 0 96px;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* .product-logo {
+} */
+.product-btn {
+  /* color: hsl(208, 11%, 55%); */
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 64px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+/***********************************/
+/* HERO SECTION */
+/***********************************/
+
+.section-hero {
+  background-color: hsl(193, 100%, 96%);
+  padding: 48px 0 92px 0;
+}
+.hero {
+  width: 1200px;
+  display: flex;
+  padding: 0 44px;
+  align-items: center;
+  gap: 128px;
+  margin-left: 32px;
+}
+.heading-primary {
+  font-size: 48px;
+  letter-spacing: -0.5;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+.hero-description {
+  /* color: hsl(208, 11%, 55%); */
+  color: #333;
+  line-height: 1.6;
+  margin-top: 32px;
+  margin-bottom: 48px;
+  font-weight: 400;
+}
+.hero-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 48px;
+  border-radius: 25px;
+}
+
+.hero-logo {
+  width: 180%;
+}
+
+/***********************************/
+/* HOW IT WORKS SECTION */
+/***********************************/
+
+.section-how {
+  padding: 128px 0 94px 0;
+}
+.steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.07);
+  width: 70%;
+  padding: 64px 64px;
+  border-radius: 11px;
+  margin-bottom: 48px;
+}
+
+.step-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 64px;
+}
+
+.heading-secondary {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.step-description {
+  margin-top: 16px;
+  line-height: 1.5;
+  /* font-size: ; */
+}
+.step-img {
+  width: 50%;
+}
+
+.section-contact {
+  background-color: red;
+  padding: 32px 0;
+  width: 450px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-btn {
+  width: 280px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer-text {
+  color: hsl(193, 100%, 96%);
+}
+
+.nav-col {
+  color: hsl(193, 100%, 96%);
+}
