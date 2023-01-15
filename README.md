@@ -8,6 +8,12 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
+### Desktop version
+
+![Desktop vesrion #1](./images/desktop-version-one.png)
+![Desktop vesrion #2](./images/desktop-version-two.png)
+![Desktop vesrion #3](./images/desktop-version-three.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
